@@ -6,7 +6,7 @@
 
 ## Description:
 
-Jack_Ketch is a script designed to do either encryption or hashing on windows systems. The main pourpose of this script is to be used for research on Anti-viruses detection, protection measures against malware / hackers, and learn reverse engenieering. A detailed description on how Jack_Ketch works and it's different versions can be seen in the "How it works" section within each version. There are different versions based on the level of skill needed to write the file and execute correctly. The versions go from lowest to highest numbers after "Jack_Ketch", meaning version one would be "Jack_Ketch_V1", so on and so forth. Each version builds off of the last one's flaws and advancements.
+Jack_Ketch is a script designed to do either encryption or hashing on windows systems. The main pourpose of this script is to be used for research on Anti-viruses detection, protection measures against malware / hackers, and learn reverse engenieering. A detailed description on how Jack_Ketch works and it's different versions can be seen in each version's documentation. There are different versions based on the level of skill needed to write the file and execute correctly. The versions go from lowest to highest numbers after "Jack_Ketch", meaning version one would be "Jack_Ketch_V1", so on and so forth. Each version builds off of the last one's flaws and advancements.
 
 ## Versions:
 
