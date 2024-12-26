@@ -85,7 +85,7 @@ def diveIntoDirectory(target_directory:str, depth:int, max_depth:int, process_li
 processes = []
 threads = []
 current_dir = os.curdir
-for item in os.listdir():
+for item in os.listdir(current_dir):
     if os.path.isdir():
         process_handle = Process(target=diveIntoDirectory, args=(f"{current_dir}\\{item}", 1, 10, 4, 8))
         process_handle.start()
