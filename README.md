@@ -12,7 +12,7 @@ Jack_Ketch is a script designed to do either encryption or hashing on windows sy
 
 ### Version 1:
 
-Version one is the most basic version of a XOR encryptor. It starts in the current directory it is inside of, with no root / starting directory changing. It is programed in Python and is honestly, the best first test for seeing on an Anti-virus will scan python files, which in my experience seem to bypass the most commonly used Anti-viruses. This file instead of having the contents of files be reversable, version one decides to hash the files using the MD4 algorithm. While not the most secure, MD4 is the most used hashing algorithm on windows devices due to how windows holds the passwords, for more information on windows password security and MD4 hashing, watch "The Shocking Ease of Cracking Windows 11 Passwords" by Enderman.
+Version one is the most basic version. It starts in the current directory it is inside of, with no root / starting directory changing. It is programed in Python and is honestly, the best first test for seeing on an Anti-virus will scan python files, which in my experience seem to bypass the most commonly used Anti-viruses. This file instead of having the contents of files be reversable, version one decides to hash the files using the MD4 algorithm. While not the most secure, MD4 is the most used hashing algorithm on windows devices due to how windows holds the passwords, for more information on windows password security and MD4 hashing, watch "The Shocking Ease of Cracking Windows 11 Passwords" by Enderman.
 
 ### Version 2:
 
