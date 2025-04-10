@@ -42,12 +42,5 @@ fn main()
             panic!("[!] Could not read file {} with return error of: {}", &target_file_path, &error);
         }
     }
-    // Converting the bytes to an XOR value for no detection
-    let mut file_bytes_as_xor: Vec<u8> = Vec::new();
-    let key_for_xor: u8 = 255;
-    for byte in file_as_bytes.iter()
-    {
-        key_for_xor.push(*(byte ** &key_for_xor));
-    }
     println!("{:?}", file_as_bytes);
 }
