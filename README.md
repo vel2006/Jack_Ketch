@@ -25,3 +25,7 @@ The spesific file covered in this README / documentation is JackKetchV3.rs, not 
 ### Version 4:
 
 This version adds the ability to detect and enumerate over logical drives on the running device. This allows for a more rapid and less deamanding deployment of this file, it also is more "connected" to ransomware in the way that ransomware will enumerate drives within a single file and not be dependent on another to run the main payload. While changes are minimal in terms of lines and logic, this file is a major step above Version 3, which it was built off of. This version also includes the ability to check if a file / directory can be edited before adding it to a pool for hashing. This allows for a smoother experience along with improving performance. While the drive enumeration is not multi-threaded the system it uses is the same as in Version 3, which is very quick and efficent for the size of testing drives it has been ran on.
+
+### Version 5:
+
+Version 5 of JackKetch includes slight inprovments to the file over version 4. Those being a threaded drive enumeration and timer for how long it takes for finding files within all drives. This project is getting to the point where it is reaching it's final versions. This is due to the issues with creating more and more improvements to the file will be difficult. Version 6 is planned but will be difficult to surpass the speed of this file.
